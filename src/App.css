@@ -1,0 +1,53 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: azure;
+  text-align: center;
+}
+body,h1,h2,button,input{
+  font-family: 'Courier New', Courier, monospace;
+}
+ h2{
+  margin-bottom: 20px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+.form input , .form button{
+  width: 200px;
+  height: 35px;
+  border-radius: 3px;
+  border: 1px solid wheat;
+  margin: 2px;
+  padding:5px;
+}
+button{
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgb(159, 233, 233);
+  cursor: pointer;
+}
+button:hover{
+  background-color: aqua;
+}
+
+.post{
+  width:45%;
+  background-color: rgb(193, 221, 245);
+  padding: 10px;
+  border: 2px solid wheat;
+  margin:10px auto;
+}
+.post button{
+  width: 150px;
+  display: inline-block;
+  margin: 5px;
+  height: 35px;
+  border-radius: 5px;
+}
+.post p{
+  margin: 5px;
+}
